@@ -1,0 +1,300 @@
+.name {
+	float: left;
+	background: #4aaaa5;
+	height: 70px;
+	text-align: center;
+	vertical-align: middle;
+	color: #FFFFFF;
+	width: 250px;
+	position: absolute;
+	left: 126px;
+	top: 20px;
+	line-height: 70px;
+	z-index: 1;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+}
+
+.name h1 {
+	background: #4aaaa5;
+	height: 70px;
+	font-size: 40px;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+.navigation {
+	float: right;
+	background: #ffffff;
+	height: 90px;
+	text-align: center;
+	line-height: 95px;
+	color: #FFFFFF;
+	width: 100%;
+	text-align: right;
+	text-decoration: none;
+	border-bottom: 2px solid #DDDDDD;
+	padding: 0px;
+	position: absolute;
+}
+
+.container {
+	width: 650px;
+	height: 600px;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	top: 130px;
+	left: 120px;
+	background: #ffffff;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.container h1{
+	color: #4aaaa5;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	padding: 10px 10px 10px 10px;
+	border-bottom: 2px solid #DDDDDD;
+	width: 600px;
+	font-size: 40px;
+	margin-top: 0;
+}
+
+
+.container img {
+	float: left;
+	height: 200px;
+	width: 200px;
+	vertical-align: middle;
+	margin: 10px 10px 10px 10px;
+	
+}
+
+.container span{
+	margin:40px;
+	color: #828282;
+  	text-decoration: none;
+  	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	line-height: 30px;
+}
+
+body {
+	background-image: url("http://i.imgur.com/3MAZHbB.png");
+}
+
+
+
+.clearfix:after {
+	content: "";
+ 	display: table;
+ 	clear: both;
+}
+
+nav a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #888;
+  text-decoration: none;
+  font-family:  'Georgia', Times, Times New Roman, serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 90px;
+
+}
+
+
+nav a:hover {
+	background: #4aaaa5;
+	color: #ffffff;
+	transition:all .5s ease;
+}
+
+
+footer {
+  position: relative;
+  right: 0;
+  bottom: -280px;
+  left: 0;
+  padding: 1rem;
+  background-color: #333;
+  text-align: center;
+  color: #DDDDDD;
+  font-size: 16px;
+  border-top: 5px solid #4aaaa5;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+
+footer p {
+	text-align: center;
+	position: relative;
+	left: 100px;
+}
+
+.containerC {
+	width: 650px;
+	height: 600px;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	top: 130px;
+	left: 120px;
+	background: #ffffff;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.containerC h1{
+	color: #4aaaa5;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	padding: 10px 10px 10px 10px;
+	border-bottom: 2px solid #DDDDDD;
+	width: 600px;
+	font-size: 40px;
+	margin-top: 0;
+}
+
+.containerC img {
+	float: left;
+	width: 33.3%;
+	margin: 20px;
+}
+
+
+
+
+.containerC p {
+	
+	padding: 10px;
+	color: #828282;
+  	text-decoration: none;
+  	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	padding: 0px 20px 0px 20px;
+  	margin-top: 0;
+  	line-height: 30px;
+  	float: right;
+  	display: inline-block;
+
+ }
+
+
+
+.sidebarC {
+	width: 260px;
+	height: 160px;
+	border: 1px solid #DDDDDD;
+	float: right;
+	display: inline;
+	position: relative;
+	bottom: 490px;
+	right: 140px;
+	background: white;
+	
+}
+
+.sidebarC h2 {
+	text-align: center;
+	border-bottom: 2px solid #DDDDDD;
+	margin: 4px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+
+.sidebarC li {
+	display: inline;
+	list-style-type: none;
+	margin: 5px;
+	
+}
+
+.sidebarC ul {
+	padding: 10px 0px 0px 40px;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+form {
+	padding: 10px;
+	padding-top: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.message {
+	height: 200px;
+
+}
+
+button {
+	height: 40px;
+	width: 120px;
+	background: #4aaaa5;
+	color: white;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+
+div.gallery {
+     margin: 0px 20px 0px 20px;
+    float: left;
+    width: 260px;
+    height: 240px;
+    padding-top: 30px;
+
+
+}
+
+
+div.gallery img {
+    width: 260px;
+    height: 180px;
+    margin-left: 15px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+  
+
+}
+
+div.desc p {
+	background: #4aaaa5;
+	width: 220px;
+	position: relative;
+	bottom: 100px;
+	left: 30px;
+	color: white;
+	font-family:  'Georgia', Times, Times New Roman, serif;
+	font-size: 26px;
+	height: 70px;
+	line-height: 70px;
+}
+
+div.gallery2 {
+    margin: 0px 20px 0px 20px;
+   float: left;
+    width: 260px;
+
+}
+
+
+div.gallery2 img {
+    width: 260px;
+    height: 160px;
+    margin-left: 15px;
+}
+
